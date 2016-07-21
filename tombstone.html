@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>tombstone</h1>
+<ul>
+  {% for ancester in site.posts%}
+  <li>
+    <a href="">{{ancester.name}}</a>
+    <p>{{ancester.birth}}</p>
+
+  </li>
+  {% endfor %}
+</ul>
